@@ -1,0 +1,25 @@
+{
+  "name": "Simple pad",
+  "short_name": "SP",
+  "start_url": "./",
+  "display": "minimal-ui",
+  "theme_color": "#6A5ACD",
+  "background_color": "#6A5ACD",
+  "icons": [
+    {
+      "src": "pad-64.png",
+      "sizes": "48x48 64x64",
+      "type": "image/png"
+    },
+    {
+      "src": "pad-128.png",
+      "sizes": "72x72 96x96 128x128",
+      "type": "image/png"
+    },
+    {
+      "src": "pad-512.png",
+      "sizes": "256x256 512x512",
+      "type": "image/png"
+    }
+  ]
+}

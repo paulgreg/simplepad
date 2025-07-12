@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Simple Pad</title>
+    <meta name="robots" content="index, follow" />
+    <meta name="author" content="Gr&eacute;gory Paul" />
+    <meta
+      name="viewport"
+      content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, initial-scale=1.0, user-scalable=no"
+    />
+    <meta name="description" content="Type your notes" />
+    <meta name="theme-color" content="#6A5ACD" />
+    <link rel="manifest" href="manifest.webmanifest" />
+    <link rel="shortcut icon" href="pad-128.png" />
+    <link type="text/css" rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+<textarea name="text">
+Welcome to Simple Pad.
+
+Everything you type here will be stored in (and only) our current device (until you clear browser's data).
+</textarea>
+  </body>
+  <script src="index.js"></script>
+  <script>
+    if ('serviceWorker' in navigator) navigator.serviceWorker.register('sw.js')
+  </script>
+</html>
