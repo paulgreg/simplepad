@@ -3,8 +3,8 @@
   "short_name": "SP",
   "start_url": "./",
   "display": "minimal-ui",
-  "theme_color": "#6A5ACD",
-  "background_color": "#6A5ACD",
+  "theme_color": "#282c34",
+  "background_color": "#282c34",
   "icons": [
     {
       "src": "pad-64.png",
