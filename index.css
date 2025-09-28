@@ -1,22 +1,57 @@
+:root {
+  --text-color: rgba(255, 255, 255, 0.87);
+  --background-color: #242424;
+  --link-color: white;
+  --link-hover-color: #535bf2;
+
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html,
 body {
-  margin: 0;
   height: 100vh;
-  overflow: hidden;
 }
 
-textarea {
-  padding: 0.5em;
-  font-size: 1.2em;
-  box-sizing: border-box;
-  width: 100%;
-  height: 100%;
-  color: black;
-  background-color: lavender;
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  color: var(--text-color);
+  background-color: var(--background-color);
 }
 
-@media (prefers-color-scheme: dark) {
-  textarea {
-    color: white;
-    background-color: slateblue;
+#root {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  padding: 0.2em;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+a {
+  font-weight: 500;
+  color: var(--link-color);
+  text-decoration: inherit;
+}
+a:hover {
+  color: var(--link-hover-color);
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --text-color: #213547;
+    --link-color: black;
+    --button-color: black;
+    --background-color: #ffffff;
+    --button-background-color: #efeaf2;
   }
 }
